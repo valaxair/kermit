@@ -1,0 +1,31 @@
+body{
+    background: #111;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: default;
+}
+.welcome{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+}
+.welcome h1{ 
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px gray;
+}
+.🤪{
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+}
+.🤪 h1{ 
+    text-align: center;
+    color: #777;
+    text-shadow: 3px 3px black;
+}
