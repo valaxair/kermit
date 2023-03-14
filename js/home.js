@@ -1,6 +1,6 @@
 var says = 
 [
-    "Welcome!",
+    "uh",
     "my coder friends copying me and hes better at coding then me",
     "Schools Pretty Boring",
     "This Websites Trash", 
@@ -14,7 +14,11 @@ var says =
     "what day is it?", 
     "fortnite battl pass", 
     "i made this on the weekend :((((",
-    "hiiii aiden :)"
+    "hiiii aiden :)",
+    "i hate myself",
+    "im in love with a emo gorl 💅",
+    "amog",
+    "💀"
 ]
 
 function pageload() {

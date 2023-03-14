@@ -24,24 +24,6 @@
         "gameicon": "gameicon.jpg"
     },
     {
-        "game": "Minecraft Precision Client",
-        "gameroot": "/files/MC-P",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
-    },
-    {
-        "game": "Minecraft 1.5.2",
-        "gameroot": "/files/MC-152",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
-    },
-    {
-        "game": "Minecraft 1.8",
-        "gameroot": "/files/MC-18",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
-    },
-    {
         "game": "Friday Night Funkin",
         "gameroot": "/files/Friday",
         "gamefile": "index.html",
@@ -51,7 +33,7 @@
         "game": "Cookie Clicker",
         "gameroot": "/files/Cookie",
         "gamefile": "index.html",
-        "gameicon": "gameicon.jpeg"
+        "gameicon": "gameicon.png"
     },
     {
         "game": "Super Mario 64",
@@ -64,12 +46,6 @@
         "gameroot": "/files/0v0",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
-    },
-    {
-        "game": "Disc",
-        "gameroot": "/files/Disc",
-        "gamefile": "index.html",
-        "gameicon": "icon.jpg"
     },
     {
         "game": "Backrooms",
@@ -86,6 +62,30 @@
     {
         "game": "We Become What We Behold",
         "gameroot": "/files/wbwwb",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "2048",
+        "gameroot": "/files/20",
+        "gamefile": "index.html",
+        "gameicon": "favicon.ico"
+    },
+    {
+        "game": "Untitled Hook Game",
+        "gameroot": "/files/h00k",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Gura Tambourine",
+        "gameroot": "/files/gura",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Bacon May Die",
+        "gameroot": "/files/bacon",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },

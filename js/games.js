@@ -25,9 +25,6 @@ fetch('/json/games.json')
         gamerdiv.classList.add('hidden');
         gamerframer.src = '';
       });
-      gamerNavigaton.querySelector('#actuallysite').addEventListener('click', (e) => {
-        window.open(gamerframer.src)
-        });
       gamerNavigaton.querySelector('#fullscreen').addEventListener('click', (e) => {
         if (!document.fullscreenElement) {
             gamerframer.requestFullscreen();

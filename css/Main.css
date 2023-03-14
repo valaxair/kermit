@@ -1,4 +1,14 @@
-
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10rem;
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background-color: #fff;
+}
 body{
     background: #111;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -12,7 +22,6 @@ body{
     width: default;
 }
 .bar {
-
     padding-bottom: 8rem;
     padding-top: 9rem;
     min-height: 50px;
@@ -34,34 +43,39 @@ body{
     font-size: 18px;
     line-height: 25px;
     color: white;
+    text-shadow: 3px 3px black;
   }
   
   .bar a.name {
     font-size: 30px;
     font-weight: bold;
   }
-  
-.bar a:hover {
-  transition: 0.75s;
-  color: #999;
-  cursor: pointer;
-}
-  
 .bar a.active {
   background-color: #333;
   color: white;
 }
-  
 .buttons {
     float: right;
   }
 .buttons span:hover{    
   transition: 0.75s;
-  color: #999;
+  color: red;
   cursor: pointer;
 }
 .buttons span{
   font-family: 'Trebuchet MS';
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px black;
 }
-
+@keyframes rainbow {
+  0%{color: #ff0000;}
+  10%{color: #fc4444;}
+  20%{color: #fc6404;}
+  30%{color: #fcd444;}
+  40%{color: #8cc43c;}
+  50%{color: #029658;}
+  60%{color: #1abc9c;}
+  70%{color: #5bc0de;}
+  80%{color: #2f64c1;}
+  90%{color: #6454ac;}
+  100%{color: #f978aa;}
+}
