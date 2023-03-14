@@ -17,7 +17,7 @@ hr{
     z-index: 1;
     border-radius: 15px;
     margin-left: 10px;
-    border: 15px solid #3e3739;
+    border: 15px solid #444;
     transition: 0.75s;
     animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     width: 128px;
@@ -26,7 +26,7 @@ hr{
 .coolgamergames img:hover{
     transition: 0.75s;
     animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    border: 15px solid #231f20;
+    border: 15px solid #666;
   }
   @keyframes upcenta {
   0% {
