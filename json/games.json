@@ -1,0 +1,98 @@
+[
+    {
+        "game": "Subway Surfers",
+        "gameroot": "/files/Subway",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Slope",
+        "gameroot": "/files/Slope",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpeg"
+    },
+    {
+        "game": "Retro Bowl",
+        "gameroot": "/files/Retro",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "New Super Mario Brothers Online",
+        "gameroot": "/files/NSMB",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Friday Night Funkin",
+        "gameroot": "/files/Friday",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.gif"
+    },
+    {
+        "game": "Cookie Clicker",
+        "gameroot": "/files/Cookie",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Super Mario 64",
+        "gameroot": "/files/64-Mario",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "OvO",
+        "gameroot": "/files/0v0",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Backrooms",
+        "gameroot": "/files/Back",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Adventure with Anxiety",
+        "gameroot": "/files/anxiety",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "We Become What We Behold",
+        "gameroot": "/files/wbwwb",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "2048",
+        "gameroot": "/files/20",
+        "gamefile": "index.html",
+        "gameicon": "favicon.ico"
+    },
+    {
+        "game": "Untitled Hook Game",
+        "gameroot": "/files/h00k",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Gura Tambourine",
+        "gameroot": "/files/gura",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Bacon May Die",
+        "gameroot": "/files/bacon",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "P.Craft",
+        "gameroot": "/files/pcraf",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    }
+]

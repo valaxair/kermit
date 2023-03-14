@@ -1,0 +1,21 @@
+.welcome{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+}
+.welcome h1{ 
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    animation: rainbow 20s infinite alternate;
+}
+.🤪{
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+}
+.🤪 h1{ 
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px black;
+}
