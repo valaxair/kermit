@@ -12,6 +12,14 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
+.😈{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  visibility: hidden;
+}
 .coolgamergames img{ 
     margin-top: 15px;
     z-index: 1;
@@ -108,4 +116,18 @@ iframe{
     max-height: 40rem;
     margin-top: -10px;
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 450px){
+  .coolgamergames img{ 
+    margin-top: 0;
+    z-index: 0;
+    margin-left: 0;
+    border: none;
+    width: 0;
+    height: 0;
+  }
+  .😈{
+    visibility: visible;
+  }
 }

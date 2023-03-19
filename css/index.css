@@ -18,4 +18,13 @@
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px black;
+    font-size: 40px
+}
+@media (max-width: 450px){
+    .welcome h1{ 
+        font-size: 25px;
+    }
+    .🤪 h1{ 
+        font-size: 25px;
+    }
 }

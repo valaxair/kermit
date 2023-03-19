@@ -36,7 +36,6 @@ body{
   .bar a {
     margin: 0;
     float: left;
-    color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -66,6 +65,17 @@ body{
   font-family: 'Trebuchet MS';
   text-shadow: 2px 2px black;
 }
+.bar p {
+  margin: 0;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3)
+}
 @keyframes rainbow {
   0%{color: #ff0000;}
   10%{color: #fc4444;}
@@ -78,4 +88,18 @@ body{
   80%{color: #2f64c1;}
   90%{color: #6454ac;}
   100%{color: #f978aa;}
+}
+
+@media (max-width: 450px){
+  .bar a.name {
+    font-size: 60%;
+  }
+  .buttons span{
+    font-size: 60%;
+  }
+  .bar p {
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
 }
