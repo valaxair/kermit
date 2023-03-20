@@ -10,3 +10,8 @@
 - Discord
 - Fast Compatibilty
 - Large Library of Games (soon)
+
+# Other Links
+[![](https://invidget.switchblade.xyz/7gacGPFbMk?theme=dark)](https://discord.gg/7gacGPFbMk)
+- https://railingames.github.io/
+- https://railingames.vercel.app/
