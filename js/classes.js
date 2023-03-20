@@ -1,16 +1,16 @@
 
 // 3kh0 made most of this its mostly just edited i dont know how to use json files so ummmmmmmmmmmmm
 
-fetch('/json/games.json')
+fetch('/json/classes.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
       const gamecontainmentchamber = document.createElement('div');
       const gamerdiv = document.querySelector('.frame-main');
-      const gamesbutton = document.querySelector('.coolgamergames');
+      const gamesbutton = document.querySelector('.classes');
       const gamerNavigaton = gamerdiv.querySelector('.frame-bar');
-      const gamerframer = document.getElementById('gamergamerpumkineater');
-      gamecontainmentchamber.className = 'GAME4U';
+      const gamerframer = document.getElementById('homework');
+      gamecontainmentchamber.className = 'class';
       gamecontainmentchamber.innerHTML = `<img src="${game.gameroot + "/" + game.gameicon}""/>`;
       gamesbutton.appendChild(gamecontainmentchamber);
 
@@ -33,6 +33,6 @@ fetch('/json/games.json')
   });
 })
   .catch((e) => {
-    alert('games go brr sorry');
+    alert('ERror Classes Not Loaded');
     alert(e);
   });
