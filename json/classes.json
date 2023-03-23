@@ -94,5 +94,17 @@
         "gameroot": "/files/pcraf",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "1v1.lol",
+        "gameroot": "/files/lol",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Fortnite - Xbox Cloud",
+        "gameroot": "/files/fn",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]
