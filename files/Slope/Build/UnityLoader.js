@@ -454,7 +454,6 @@ var UnityLoader = UnityLoader || {
                     ? (r = "Out of memory. If you are the developer of this content, try allocating more memory to your WebGL build in the WebGL player settings.")
                     : (r.indexOf("Invalid array buffer length") == -1 && r.indexOf("Invalid typed array length") == -1 && r.indexOf("out of memory") == -1) ||
                       (r = "The browser could not allocate enough memory for the WebGL content. If you are the developer of this content, try allocating less memory to your WebGL build in the WebGL player settings."),
-                    alert(r),
                     (this.didShowErrorMessage = !0);
             }
         },

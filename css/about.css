@@ -1,0 +1,13 @@
+.about h1{
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.about p{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.about a{
+    color: #ADD8E6;
+}

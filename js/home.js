@@ -18,9 +18,10 @@ var says =
     "i hate myself",
     "im in love with a emo gorl 💅",
     "amog",
-    "💀"
+    "💀",
+    "hey e-kitten"
 ]
 
-function pageload() {
+function pageLoad() {
     document.getElementById('randomting').innerHTML = says[Math.floor(Math.random() * says.length)]
 }
