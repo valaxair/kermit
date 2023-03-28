@@ -132,6 +132,24 @@
         "gameicon": "gameicon.webp"
     },
     {
+        "game": "territorial.io",
+        "gameroot": "/files/ter",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.webp"
+    },
+    {
+        "game": "Paper.io 2",
+        "gameroot": "/files/paper2",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jfif"
+    },
+    {
+        "game": "Paper.io 3D",
+        "gameroot": "/files/paper3",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
         "game": "Drive Mad",
         "gameroot": "/files/Drive",
         "gamefile": "index.html",
