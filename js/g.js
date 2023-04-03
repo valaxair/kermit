@@ -1,7 +1,7 @@
 
 // 3kh0 made most of this its mostly just edited i dont know how to use json files so ummmmmmmmmmmmm
 
-fetch('/json/g.json')
+    fetch('/json/g.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
@@ -31,8 +31,8 @@ fetch('/json/g.json')
         }
     });
   });
-})
+  })
   .catch((e) => {
-    alert('ERror Classes Not Loaded');
+    alert('Error Classes Not Loaded');
     alert(e);
   });

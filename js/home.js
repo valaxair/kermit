@@ -19,7 +19,8 @@ var says =
     "im in love with a emo gorl 💅",
     "amog",
     "💀",
-    "hey e-kitten"
+    "hey e-kitten",
+    "rip 3kh0"
 ]
 
 function pageLoad() {

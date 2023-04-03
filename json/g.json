@@ -54,6 +54,12 @@
         "gameicon": "gameicon.png"
     },
     {
+        "game": "Backrooms",
+        "gameroot": "/files/br2d",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
         "game": "Adventure with Anxiety",
         "gameroot": "/files/anxiety",
         "gamefile": "index.html",
@@ -146,6 +152,36 @@
     {
         "game": "Paper.io 3D",
         "gameroot": "/files/paper3",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "NBA Jam",
+        "gameroot": "/files/nj",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Gun Mayhem 2 More Mayhem",
+        "gameroot": "/files/gm2",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Gun Mayhem",
+        "gameroot": "/files/gm",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Fancy Pants Adventures",
+        "gameroot": "/files/fp",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "The Fancy Pants Adventure World 2",
+        "gameroot": "/files/fp2",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },

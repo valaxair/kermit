@@ -3,59 +3,59 @@
 }
 ::-webkit-scrollbar-track {
   border-radius: 10rem;
-  background-color: #000;
+  background-color: var(--background);
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10rem;
   background-color: #fff;
 }
-body{
-    background: #111;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+body {
+  background: #111;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
-*{
-    margin: 0;
-    color: white;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 .bar {
-    min-height: 55px;
-    padding: 0 15px;
-    background-color: #444;
-    box-shadow: 0 5px 100px #444;
-    z-index: 100;
-    backface-visibility: visible;
-    transition: 0.35s ease;
-  }
-  .bar a {
-    margin: 0;
-    float: left;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 30px;
-    color: white;
-    text-shadow: 3px 3px #000;
-  }
-  
-  .bar a.name {
-    font-size: 30px;
-    font-weight: bold;
-  }
+  min-height: 55px;
+  padding: 0 15px;
+  background-color: #444;
+  box-shadow: 0 5px 100px #444;
+  z-index: 100;
+  backface-visibility: visible;
+  transition: 0.35s ease;
+}
+.bar a {
+  margin: 0;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  text-shadow: 3px 3px #000;
+}
+
+.bar a.name {
+  font-size: 30px;
+  font-weight: bold;
+}
 .bar a.active {
   background-color: #333;
   color: white;
 }
 .buttons {
   float: right;
-  }
-.buttons span:hover{    
+}
+.buttons span:hover {
   cursor: pointer;
 }
-.buttons span{
-  font-family: 'Trebuchet MS';
+.buttons span {
+  font-family: "Trebuchet MS";
   text-shadow: 2px 2px #000;
   background: rgba(0, 0, 0, 0.3);
   border: 3px solid rgba(0, 0, 0, 0.1);
@@ -66,31 +66,52 @@ body{
   border-radius: 19px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
-.buttons span[on]{
+.buttons span[on] {
   transition: 0.75s;
   background-color: rgba(0, 255, 0, 0.3);
-  box-shadow: 0 0 8px 5px rgba(0, 200 , 0, 0.5);
+  box-shadow: 0 0 8px 5px rgba(0, 200, 0, 0.5);
   border: 3px solid rgba(0, 255, 0, 0.02);
 }
 @keyframes rainbow {
-  0%{color: #ff0000;}
-  10%{color: #fc4444;}
-  20%{color: #fc6404;}
-  30%{color: #fcd444;}
-  40%{color: #8cc43c;}
-  50%{color: #029658;}
-  60%{color: #1abc9c;}
-  70%{color: #5bc0de;}
-  80%{color: #2f64c1;}
-  90%{color: #6454ac;}
-  100%{color: #f978aa;}
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #fc4444;
+  }
+  20% {
+    color: #fc6404;
+  }
+  30% {
+    color: #fcd444;
+  }
+  40% {
+    color: #8cc43c;
+  }
+  50% {
+    color: #029658;
+  }
+  60% {
+    color: #1abc9c;
+  }
+  70% {
+    color: #5bc0de;
+  }
+  80% {
+    color: #2f64c1;
+  }
+  90% {
+    color: #6454ac;
+  }
+  100% {
+    color: #f978aa;
+  }
 }
-
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .bar a.name {
     font-size: 60%;
   }
-  .buttons span{
+  .buttons span {
     font-size: 60%;
     background: none;
     border: none;
@@ -100,7 +121,7 @@ body{
     padding-right: 0;
     padding-top: 0;
   }
-  .buttons span[on]{
+  .buttons span[on] {
     transition: 0.75s;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
@@ -110,12 +131,32 @@ body{
     font-size: 0;
     line-height: 0;
     padding: 0;
+  }
 }
-}
-hr{
+hr {
   border: 1px solid #777;
 }
-.ti{
+.ti {
   margin-top: 15px;
   text-align: center;
+}
+@keyframes upcenta {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes downcenta {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
