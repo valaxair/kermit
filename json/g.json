@@ -54,7 +54,7 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Backrooms",
+        "game": "Backrooms 2D",
         "gameroot": "/files/br2d",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
