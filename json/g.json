@@ -190,5 +190,29 @@
         "gameroot": "/files/Drive",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Roblox - Now.gg",
+        "gameroot": "/files/rx",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Drift Hunters",
+        "gameroot": "/files/drift",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Shell Shockers.io",
+        "gameroot": "/files/ss",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Plants VS Zombies",
+        "gameroot": "/files/pvz",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]
