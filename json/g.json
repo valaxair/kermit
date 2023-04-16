@@ -208,5 +208,29 @@
         "gameroot": "/files/pvz",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Geometry Dash",
+        "gameroot": "/files/gd",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Terraria",
+        "gameroot": "/files/t",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Getting over it",
+        "gameroot": "/files/goi",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Paper Minecraft",
+        "gameroot": "/files/pm",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]
