@@ -198,12 +198,6 @@
         "gameicon": "gameicon.jpg"
     },
     {
-        "game": "Drift Hunters",
-        "gameroot": "/files/drift",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.jpg"
-    },
-    {
         "game": "Shell Shockers.io",
         "gameroot": "/files/ss",
         "gamefile": "index.html",
