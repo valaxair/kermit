@@ -235,25 +235,25 @@
     },
     {
         "game": "Moto x3m",
-        "gameroot": "/g/m/",
+        "gameroot": "/files/m/",
         "gamefile": "index.html",
         "gameicon": "splash.jpg"
     },
     {
         "game": "Moto x3m - Winter",
-        "gameroot": "/g/mw/",
+        "gameroot": "/files/mw/",
         "gamefile": "index.html",
         "gameicon": "download.jpeg"
     },
     {
         "game": "Moto x3m - Spooky",
-        "gameroot": "/g/ms/",
+        "gameroot": "/files/ms/",
         "gamefile": "index.html",
         "gameicon": "splash.jpeg"
     },
     {
         "game": "Moto x3m - Pool Party",
-        "gameroot": "/g/mp/",
+        "gameroot": "/files/mp/",
         "gamefile": "index.html",
         "gameicon": "splash.jpg"
     },
