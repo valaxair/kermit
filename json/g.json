@@ -232,5 +232,71 @@
         "gameroot": "/files/pm/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Moto x3m",
+        "gameroot": "/g/m/",
+        "gamefile": "index.html",
+        "gameicon": "splash.jpg"
+    },
+    {
+        "game": "Moto x3m - Winter",
+        "gameroot": "/g/mw/",
+        "gamefile": "index.html",
+        "gameicon": "download.jpeg"
+    },
+    {
+        "game": "Moto x3m - Spooky",
+        "gameroot": "/g/ms/",
+        "gamefile": "index.html",
+        "gameicon": "splash.jpeg"
+    },
+    {
+        "game": "Moto x3m - Pool Party",
+        "gameroot": "/g/mp/",
+        "gamefile": "index.html",
+        "gameicon": "splash.jpg"
+    },
+    {
+        "game": "Vex 6",
+        "gameroot": "/files/v6/",
+        "gamefile": "index.html",
+        "gameicon": "icon.png"
+    },
+    {
+        "game": "Vex 7",
+        "gameroot": "/files/v7/",
+        "gamefile": "index.html",
+        "gameicon": "icon.png"
+    },
+    {
+        "game": "Among Us",
+        "gameroot": "/files/au/",
+        "gamefile": "index.html",
+        "gameicon": "game.jpg"
+    },
+    {
+        "game": "Toss the Turtle",
+        "gameroot": "/files/ttt/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Learn to Fly",
+        "gameroot": "/files/ltf/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Learn to Fly 2",
+        "gameroot": "/files/ltf2/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Trimps",
+        "gameroot": "/files/tr/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
     }
 ]
