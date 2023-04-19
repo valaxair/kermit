@@ -294,6 +294,18 @@
         "gameicon": "gameicon.jpg"
     },
     {
+        "game": "Doge Miner",
+        "gameroot": "/files/dogem/",
+        "gamefile": "index.html",
+        "gameicon": "game.png"
+    },
+    {
+        "game": "Doge Miner 2",
+        "gameroot": "/files/dogem2/",
+        "gamefile": "index.html",
+        "gameicon": "thumb.jpg"
+    },
+    {
         "game": "Trimps",
         "gameroot": "/files/tr/",
         "gamefile": "index.html",
