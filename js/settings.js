@@ -30,7 +30,6 @@ function googleDrive() {
 
 function pEnable() {
   localStorage.setItem("panic", "on");
-  localStorage.setItem("nsf", "start");
   location.reload()
 }
 
@@ -39,10 +38,8 @@ function pDisable() {
   location.reload()
 }
 
-function ez4ence(){
-  if (localStorage.getItem("nsf") == "24"){
-    localStorage.setItem("nsf", "devil");
-  }
+function non() {
+  localStorage.setItem("nsf", "no");
+  location.reload()
 }
 
-console.log('want nsfw gxmes? settings -> panic on -> gxmes type "nsfw" -> settings on top bar press settings again -> enjoy ;)');

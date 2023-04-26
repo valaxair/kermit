@@ -304,5 +304,35 @@
         "gameroot": "/files/tr/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Basket Random",
+        "gameroot": "/files/br/",
+        "gamefile": "index.html",
+        "gameicon": "splash.jpeg"
+    },
+    {
+        "game": "Impossible Quiz",
+        "gameroot": "/files/iq/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Rooftop Snipers",
+        "gameroot": "/files/rs/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Getaway Shootout",
+        "gameroot": "/files/gs/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Basketball Stars",
+        "gameroot": "/files/bs/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]

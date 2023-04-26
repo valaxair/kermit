@@ -37,21 +37,6 @@
     alert(e);
   });
 
-if (localStorage.getItem("panic") == "on") {
-  const keys = [];
-  const code = 'nsfw';
-
-  window.addEventListener('keyup', e => {
-    keys.push(e.key);
-    keys.splice(0, keys.length - code.length);
-    const word = keys.join('');
-    if (word === code){
-      localStorage.setItem("nsf", "24");
-      console.log('part 2');
-    };
-  });
-}
-
 if (localStorage.getItem("nsf") == "devil") {
   console.log('enjoy 😈')
 
