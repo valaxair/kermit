@@ -38,8 +38,3 @@ function pDisable() {
   location.reload()
 }
 
-function non() {
-  localStorage.setItem("nsf", "no");
-  location.reload()
-}
-
