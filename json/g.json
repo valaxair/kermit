@@ -198,12 +198,6 @@
         "gameicon": "gameicon.jpg"
     },
     {
-        "game": "Shell Shockers.io",
-        "gameroot": "/files/ss/",
-        "gamefile": "index.html",
-        "gameicon": "yes.jpg"
-    },
-    {
         "game": "Plants VS Zombies",
         "gameroot": "/files/pvz/",
         "gamefile": "index.html",
