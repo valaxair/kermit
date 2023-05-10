@@ -12,6 +12,12 @@
         "gameicon": "gameicon.jpeg"
     },
     {
+        "game": "Fortnite - Xbox Cloud (pr0xy)",
+        "gameroot": "/files/fn/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
         "game": "Retro Bowl",
         "gameroot": "/files/Retro/",
         "gamefile": "index.html",
@@ -112,12 +118,6 @@
         "gameroot": "/files/snak/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
-    },
-    {
-        "game": "Fortnite - Xbox Cloud",
-        "gameroot": "/files/fn/",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
     },
     {
         "game": "Baldi's Basics",
@@ -328,5 +328,35 @@
         "gameroot": "/files/bs/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Papas Pizzeria",
+        "gameroot": "/files/pp/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Funny Shooter 2",
+        "gameroot": "/files/fs2/",
+        "gamefile": "index.html",
+        "gameicon": "logo.png"
+    },
+    {
+        "game": "Happy Wheels",
+        "gameroot": "/files/hw/",
+        "gamefile": "index.html",
+        "gameicon": "b.png"
+    },
+    {
+        "game": "Raft Wars",
+        "gameroot": "/files/rw/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },    
+    {
+        "game": "Raft Wars 2",
+        "gameroot": "/files/rw2/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
     }
 ]
