@@ -39,7 +39,7 @@
 
   function ddiissccoorrdd() {
         var urlObj = new window.URL(window.location.href);
-        var url = window.location.hostname + "/others/wb.html";
+        var url = window.location.protocol + window.location.hostname + "/others/wb.html";
 
         if (url) {
           win = window.open();
@@ -57,7 +57,7 @@
 
   function sm64() {
     var urlObj = new window.URL(window.location.href);
-    var url = window.location.hostname + "/files/64/index.html";
+    var url = window.location.protocol + window.location.hostname + "/files/64/index.html";
 
     if (url) {
       win = window.open();
@@ -75,7 +75,7 @@
 
 function mc15() {
   var urlObj = new window.URL(window.location.href);
-  var url = window.location.hostname + "/files/15/index.html";
+  var url = window.location.protocol + window.location.hostname + "/files/15/index.html";
 
   if (url) {
     win = window.open();
@@ -93,7 +93,7 @@ function mc15() {
 
 function mc18() {
   var urlObj = new window.URL(window.location.href);
-  var url = window.location.hostname + "/files/18/index.html";
+  var url = window.location.protocol + window.location.hostname + "/files/18/index.html";
 
   if (url) {
     win = window.open();
