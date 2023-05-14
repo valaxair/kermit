@@ -42,12 +42,6 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Super Mario 64",
-        "gameroot": "/files/64-Mario/",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
-    },
-    {
         "game": "OvO",
         "gameroot": "/files/0v0/",
         "gamefile": "index.html",
@@ -353,6 +347,36 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },    
+    {
+         "game": "BitCoin Clicker",
+        "gameroot": "/files/bc/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Idle Breakout",
+       "gameroot": "/files/ib/",
+       "gamefile": "index.html",
+       "gameicon": "gameicon.png"
+   },
+   {
+        "game": "Stick Man Hook",
+        "gameroot": "/files/smh/",
+        "gamefile": "index.html",
+        "gameicon": "unnamed.jpg"
+    },
+    {
+        "game": "Tiny Fishing",
+        "gameroot": "/files/tf/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Tunnel Rush",
+        "gameroot": "/files/trush/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
     {
         "game": "Raft Wars 2",
         "gameroot": "/files/rw2/",

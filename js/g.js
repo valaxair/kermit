@@ -36,3 +36,75 @@
     alert('Error Classes Not Loaded');
     alert(e);
   });
+
+  function ddiissccoorrdd() {
+        var urlObj = new window.URL(window.location.href);
+        var url = window.location.hostname + "/others/wb.html";
+
+        if (url) {
+          win = window.open();
+          win.document.body.style.margin = '0';
+          win.document.body.style.height = '100vh';
+          var iframe = win.document.createElement('iframe');
+          iframe.style.border = 'none';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.margin = '0';
+          iframe.src = url;
+          win.document.body.appendChild(iframe);
+        }
+  }
+
+  function sm64() {
+    var urlObj = new window.URL(window.location.href);
+    var url = window.location.hostname + "/files/64/index.html";
+
+    if (url) {
+      win = window.open();
+      win.document.body.style.margin = '0';
+      win.document.body.style.height = '100vh';
+      var iframe = win.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = url;
+      win.document.body.appendChild(iframe);
+    }
+}
+
+function mc15() {
+  var urlObj = new window.URL(window.location.href);
+  var url = window.location.hostname + "/files/15/index.html";
+
+  if (url) {
+    win = window.open();
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    var iframe = win.document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.margin = '0';
+    iframe.src = url;
+    win.document.body.appendChild(iframe);
+  }
+}
+
+function mc18() {
+  var urlObj = new window.URL(window.location.href);
+  var url = window.location.hostname + "/files/18/index.html";
+
+  if (url) {
+    win = window.open();
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    var iframe = win.document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.margin = '0';
+    iframe.src = url;
+    win.document.body.appendChild(iframe);
+  }
+}
