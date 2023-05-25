@@ -409,7 +409,7 @@
     },
     {
         "game": "Bitlife",
-        "gameroot": "/files/tet/",
+        "gameroot": "/files/bl/",
         "gamefile": "index.html",
         "gameicon": "logo.png"
     },
