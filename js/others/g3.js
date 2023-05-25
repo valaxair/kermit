@@ -15,7 +15,7 @@ fetch("https://raw.githubusercontent.com/3kh0/website-v4/main/assets/json/games.
     gamecontainmentchamber.onclick = (e) => {
       gamesbutton.classList.add('hidden');
       gamerdiv.classList.remove('hidden');
-      gamerframer.src = `https://raw.githack.com/3kh0/3kh0-assets/main/${game.root}/`;
+      gamerframer.src = `https://https://raw.githack.com/3kh0/3kh0-assets/main/${game.root}/`;
     };
     gamerNavigaton.querySelector('#close').addEventListener('click', (e) => {
       gamesbutton.classList.remove('hidden');
