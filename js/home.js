@@ -7,7 +7,6 @@ var says =
     "i took too long making this :(", 
     "AOSUDHASIUD4u3ghiuj34hgi34gH", 
     "tinyurl.com/RailinDev", 
-    "I stole 3kh0's idea to make a website >:)", 
     "hotline bling", 
     "all 1v1lol's are blocked at my school", 
     "the person who made this websites pretty cool", 
@@ -20,7 +19,7 @@ var says =
     "amog",
     "💀",
     "hey e-kitten",
-    "rip 3kh0"
+    "SOMEONE PLEASE SPONSOR ME (cartxrr@proton.me)"
 ]
 
 function pageLoad() {

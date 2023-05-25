@@ -12,12 +12,6 @@
         "gameicon": "gameicon.jpeg"
     },
     {
-        "game": "Fortnite - Xbox Cloud (pr0xy)",
-        "gameroot": "/files/fn/",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.png"
-    },
-    {
         "game": "Retro Bowl",
         "gameroot": "/files/Retro/",
         "gamefile": "index.html",
@@ -88,6 +82,12 @@
         "gameroot": "/files/bacon/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Iron Snout",
+        "gameroot": "/files/is/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
     },
     {
         "game": "P.Craft",
@@ -382,5 +382,59 @@
         "gameroot": "/files/rw2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Elastic Face",
+        "gameroot": "/files/elastic/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Avatar Arena",
+        "gameroot": "/files/aa/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Dodge",
+        "gameroot": "/files/dodge/",
+        "gamefile": "index.html",
+        "gameicon": "dodge.png"
+    },
+    {
+        "game": "Tetris",
+        "gameroot": "/files/tet/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Bitlife",
+        "gameroot": "/files/tet/",
+        "gamefile": "index.html",
+        "gameicon": "logo.png"
+    },
+    {
+        "game": "Duck Life",
+        "gameroot": "/files/dl1/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Duck Life 2",
+        "gameroot": "/files/dl2/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpg"
+    },
+    {
+        "game": "Nut Simulator",
+        "gameroot": "/files/ns/",
+        "gamefile": "index.html",
+        "gameicon": "icon.png"
+    },
+    {
+        "game": "Doodle Jump",
+        "gameroot": "/files/dj/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]
