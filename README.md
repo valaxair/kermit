@@ -14,6 +14,3 @@
 - Discord
 - Fast Compatibilty
 - Large Library of Games (soon)
-
-# Discord!!
-[![](https://invidget.switchblade.xyz/7gacGPFbMk?theme=dark)](https://discord.gg/7gacGPFbMk)
