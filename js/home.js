@@ -25,7 +25,3 @@ var says =
 function pageLoad() {
     document.getElementById('randomting').innerHTML = says[Math.floor(Math.random() * says.length)]
 }
-
-if (window.location.href.match("cartxrr")) {
-    alert("if you have ad blocker on please disable it! it helps us run the website thanks 💓");
-}

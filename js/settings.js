@@ -38,3 +38,18 @@ function pDisable() {
   location.reload()
 }
 
+function DarkTheme() {
+  localStorage.setItem("theme", "dark");
+  location.reload()
+}
+
+function LightTheme() {
+  localStorage.setItem("theme", "light");
+  location.reload()
+}
+
+function AmoledTheme() {
+  localStorage.setItem("theme", "amoled");
+  location.reload()
+}
+

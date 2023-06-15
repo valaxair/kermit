@@ -15,17 +15,18 @@
 }
 .classes div{
   height: fit-content;
-  margin-top: 15px;
+  margin-top: 20px;
   z-index: 1;
-  border-radius: 24px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: 15px solid rgba(100, 100, 100, 0.05);
-  background-color: rgba(100, 100, 100, 0.5);
-  box-shadow: 0 0 5px 2.5px rgba(105,105,105, 0.5);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 15px solid rgba(0, 0, 0, 0);
+  background-color: var(--color2);
+  box-shadow: 0 0 5px 2.5px var(--color2);
   transition: 0.75s;
   animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   width: 158px;
+  height: 180px;
 }
 .classes img {
   width: 128px;
@@ -33,15 +34,17 @@
   border-radius: 15px;
 }
 .classes h1{
-  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   font-size: 1vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .classes div:hover {
   transition: 0.75s;
   animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  border: 15px solid #666;
-  background-color: #666;
+  background-color: var(--color3);
   cursor: pointer;
 }
 .frame-main {
@@ -51,18 +54,18 @@
   position: absolute;
   width: 100%;
   height: 99.6%;
-  background: #666;
+  background: var(--color3);
 }
 .frame-bar {
   position: absolute;
   width: fit-content;
   padding: 0.5em;
   margin-left: 15px;
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--color4);
   min-height: 15px;
   margin-top: 15px;
-  border-radius: 24px;
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 2px var(--color4);
   transition: 0s;
 }
 .frame-bar i {
@@ -70,13 +73,13 @@
   line-height: 15px;
   padding: 0.25em;
   margin-right: 2px;
-  color: #fff;
+  color: var(--color1);
   font-size: 25px;
   float: left;
   transition: 0.75s;
 }
 .frame-bar i:hover {
-  color: #777;
+  color: var(--color5);
   transition: 0.75s;
 }
 iframe {

@@ -1,4 +1,4 @@
-   fetch('/json/g.json')
+   fetch('/files/list.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
@@ -30,7 +30,7 @@
   });
   })
   .catch((e) => {
-    alert('Error Classes Not Loaded');
+    alert('There was an error either your pc bad or the games are updating lul');
     alert(e);
   });
 
@@ -83,9 +83,4 @@ function mc15() {
 function mc18() {
   var url = "/files/18/index.html";
   window.open(url)
-}
-
-function echo() {
-  var url = "/others/3kh0.html";
-  window.open(url, self)
 }

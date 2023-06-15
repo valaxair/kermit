@@ -9,13 +9,11 @@
   margin-top: 15px;
   border: 0;
   margin-left: 20px;
-  background: rgb(105, 105, 105, 0.6);
-  border: 3px solid rgba(105,105,105, 0.1);
-  border-radius: 19px;
+  background: var(--color2);
+  border-radius: 10px;
   width: fit-content;
   padding: 10px;
-  color: white;
-  box-shadow: 0 0 10px 5px rgba(105,105,105, 0.5);
+  box-shadow: 0 0 10px 5px var(--color2);
   animation: downcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .button:hover {

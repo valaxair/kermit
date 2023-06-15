@@ -10,5 +10,5 @@
     margin-top: 15px;
 }
 .about a{
-    color: #ADD8E6;
+    color: var(--linkcolor);
 }

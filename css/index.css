@@ -6,7 +6,7 @@
 .welcome h1{ 
     text-align: center;
     font-size: 50px;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px var(--color4);
     color: #FFA500;
 }
 .🤪{
@@ -16,8 +16,8 @@
 }
 .🤪 h1{ 
     text-align: center;
-    color: #fff;
-    text-shadow: 3px 3px black;
+    color: var(--color1);
+    text-shadow: 3px 3px var(--color4);
     font-size: 40px
 }
 @media (max-width: 450px){
