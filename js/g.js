@@ -36,7 +36,7 @@
 
   function ddiissccoorrdd() {
         var urlObj = new window.URL(window.location.href);
-        var url = window.location.protocol + window.location.hostname + "/others/wb.html";
+        var url = window.location.protocol + window.location.hostname + "/others/dc.html";
 
         if (url) {
           win = window.open();
