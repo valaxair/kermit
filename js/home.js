@@ -7,18 +7,10 @@ var says =
     "i took too long making this :(", 
     "AOSUDHASIUD4u3ghiuj34hgi34gH", 
     "tinyurl.com/RailinDev", 
-    "hotline bling", 
     "all 1v1lol's are blocked at my school", 
     "the person who made this websites pretty cool", 
     "what day is it?", 
-    "fortnite battl pass", 
-    "i made this on the weekend :((((",
-    "hiiii aiden :)",
     "i hate myself",
-    "im in love with a emo gorl 💅",
-    "amog",
-    "💀",
-    "hey e-kitten",
     "SOMEONE PLEASE SPONSOR ME (cartxrr@proton.me)"
 ]
 
