@@ -1,4 +1,5 @@
-   fetch('/files/list.json')
+// fetch('https://railingames.github.io/files/list.json'
+fetch('/files/list.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
@@ -30,7 +31,8 @@
   });
   })
   .catch((e) => {
-    alert('There was an error either your pc bad or the games are updating lul');
+    alert('There Was An Error. Press Ok.');
+    console.log(e)
     alert(e);
   });
 

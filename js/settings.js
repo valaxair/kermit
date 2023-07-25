@@ -53,3 +53,8 @@ function AmoledTheme() {
   location.reload()
 }
 
+function UglyTheme() {
+  localStorage.setItem("theme", "ugly");
+  location.reload()
+}
+

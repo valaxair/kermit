@@ -3,7 +3,6 @@
 ::-webkit-scrollbar-thumb { border-radius: 10rem; background-color: var(--color1); }
 body {
   background: #111;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
   --color1: #fff;
   --color2: rgb(105, 105, 105, 0.5);
   --color3: #666;
@@ -12,6 +11,7 @@ body {
   --color6: rgb(100, 100, 100, 0.05);
   --textshadow: #b3b3b3;
   --linkcolor: #ADD8E6;
+  --theme: #FFA500;
 }
 body.light {
   background: #fff;
@@ -33,11 +33,24 @@ body.amoled {
   --color6: #000;
   --linkcolor: #0046ff;
 }
+body.ugly {
+  background: #ffd9a0;
+  --color1: #e71bcc;
+  --color2: rgba(59, 218, 183, 0.5);
+  --color3: #ad71f1;
+  --color4: rgba(217, 49, 240, 0.5);
+  --color5: #b7eb58;
+  --color6: rgba(252, 92, 92, 0.05);
+  --textshadow: #0a1f0b;
+  --linkcolor: #7a0000;
+  --theme: #77ceda;
+}
 * {
   margin: 0;
-  color: var(--color1);;
+  color: var(--color1);
   text-decoration: none;
   box-sizing: border-box;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 nav{
   height: 60px;
@@ -47,19 +60,32 @@ nav{
   justify-content: space-between;
   padding: 0 20px;
   margin: 0;
+  box-shadow: 0 5px 10px var(--color4);
 }
 nav ul {
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   position: absolute;
   left: 50%;
   top: 30px;
   transform: translate(-50%, -50%);
+  gap: 5px;
+  width: fit-content;
 }
 nav ul li {
-  margin: 0 15px;
+  font-size: 17.5px;
+  margin: 0 7.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+nav ul li:hover{
+  cursor: pointer;
+}
+nav ul li i{
+  margin-right: 5px;
 }
 nav img{
   height: 30px;
@@ -68,9 +94,6 @@ nav img:hover{
   height: 30px;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-}
-nav ul li i{
-  margin-right: 5px;
 }
 @media (max-width: 450px) {
 }
@@ -107,4 +130,9 @@ hr {
   50% { transform: rotate(0eg); }
   75% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
+}
+@media (max-width: 450px){
+  body{
+    scale: 0.75;
+  }
 }

@@ -1,35 +1,39 @@
-.welcome{
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-}
-.welcome h1{ 
+.box{
+    justify-content: center;
+    padding: 15em 15em;
     text-align: center;
+}
+.box h1{ 
     font-size: 50px;
     text-shadow: 3px 3px var(--color4);
-    color: #FFA500;
+    color: var(--theme);
 }
-.🤪{
-    position: absolute;
-    bottom: 45%;
-    width: 100%;
-}
-.🤪 h1{ 
-    text-align: center;
+.box h2{
     color: var(--color1);
     text-shadow: 3px 3px var(--color4);
-    font-size: 40px
+    font-size: 25px;
 }
+.box h2:hover{
+    cursor: pointer;
+}
+/* 
+.ad img{ 
+    height: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    transition: 0.75s;
+    border: 0;
+}
+.ad img:hover{
+    cursor: pointer;
+    transition: 0.75s;
+    scale: 1.1;
+} 
+*/
 @media (max-width: 450px){
     .welcome h1{ 
         font-size: 25px;
-    }
-    .🤪 h1{ 
-        font-size: 25px;
-    }
-    .bar p {
-        font-size: 0;
-        line-height: 0;
-        padding: 0;
     }
 }

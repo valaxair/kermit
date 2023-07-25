@@ -48,6 +48,7 @@ if (localStorage.getItem("panic") == "off") {
 } 
 
 window.addEventListener('DOMContentLoaded', () => {
+
   if (localStorage.getItem("theme") === "dark") {
     document.body.setAttribute("class", "");
     console.log('dark');
@@ -61,5 +62,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem("theme") === "amoled") {
     document.body.setAttribute("class", "amoled");
     console.log('amoled');
+  }
+
+  if (localStorage.getItem("theme") === "ugly") {
+    document.body.setAttribute("class", "ugly");
+    console.log('ugly');
   }
 });
