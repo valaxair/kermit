@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/CartxrrCodes/web-blogs/main/railin.json')
+fetch('https://raw.githubusercontent.com/Cartxrr/web-blogs/main/railin.json')
 .then((lessgooo) => lessgooo.json())
 .then((blog) => {
     blog.forEach((item) => {
