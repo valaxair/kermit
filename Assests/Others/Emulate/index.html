@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>hu</title>
+        <title>.</title>
+        <link rel="stylesheet" type="text/css" href="/Assests/CSS/theme.css">
 
         <meta name = viewport content = "width = device-width, initial-scale = 1">
 
@@ -16,7 +17,7 @@
                 font-size: 20px;
                 margin: 0;
                 overflow: hidden;
-                background-color: #222
+                background-color: rgba(0, 0, 0, 0);
             }
 
             body, #box {
@@ -26,14 +27,14 @@
             }
 
             #box {
-                color: #aaa;
+                color: var(--text-color1);
                 height: 20em;
                 width: 30em;
                 max-width: 80%;
                 max-height: 80%;
-                background-color: #333;
+                background-color: var(--bg-accent2);
                 border-radius: 0.4em;
-                border: 2px solid #555;
+                border: 2px solid var(--btn-accent);
                 position: relative;
                 flex-direction: column;
                 transition-duration: 0.2s;
@@ -41,8 +42,7 @@
             }
 
             #box:hover, #box[drag] {
-                border-color: #38f;
-                color: #ddd
+                scale: 1.1;
             }
 
             #input {
@@ -86,7 +86,7 @@
     <body>
         <div id = box>
             <input type = file id = input>
-            Drag ROM file or click here
+            Drag or Upload a ROM File
         </div>
 
         <script>
@@ -175,5 +175,7 @@
             box.ondragover = () => box.setAttribute("drag", true)
             box.ondragleave = () => box.removeAttribute("drag")
         </script>
+
+        <script src="/Assests/JS/options.js"></script>
     </body>
 </html>
